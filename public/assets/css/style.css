@@ -1,0 +1,51 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px;
+  background-image: url("../images/stacks.jpg");
+}
+
+.navbar {
+  margin-bottom: 0;
+  height: 100px;
+}
+
+.nav-item {
+  margin: 10px;
+  color: white;
+}
+.caption {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  box-shadow: 10px 5px 20px 2px lightslategrey;
+  /* background-image: url("../images/stacks.jpg"); */
+}
+
+.jumbotron .wallpaper-image {
+  height: 100%;
+  /* background-image: url("../images/stacks.jpg"); */
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: goldenrod;
+}
+
+#footer-text {
+  padding-top: 10px;
+}
